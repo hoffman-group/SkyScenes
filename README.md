@@ -6,7 +6,7 @@
 
 <!-- This repository is the official Pytorch implementation for [SkyScenes](). -->
 
-[![HuggingFace Dataset](https://img.shields.io/badge/🤗-HuggingFace%20Dataset-cyan.svg)](https://huggingface.co/datasets/hoffman-lab/SkyScenes) [![Project Page](https://img.shields.io/badge/Project-Website-orange)](https://github.gatech.edu/pages/hoffman-group/SkyScenes/) [![arXiv](https://img.shields.io/badge/arXiv-SkyScenes-b31b1b.svg)]()  
+[![HuggingFace Dataset](https://img.shields.io/badge/🤗-HuggingFace%20Dataset-cyan.svg)](https://huggingface.co/datasets/hoffman-lab/SkyScenes) [![Project Page](https://img.shields.io/badge/Project-Website-orange)](https://hoffman-group.github.io/SkyScenes/) [![arXiv](https://img.shields.io/badge/arXiv-SkyScenes-b31b1b.svg)]()  
 
 
 <!-- [![Watch the Demo](./assets/robust_aerial_videos.mp4)](./assets/robust_aerial_videos.mp4) -->
