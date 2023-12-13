@@ -6,7 +6,7 @@
 
 <!-- This repository is the official Pytorch implementation for [SkyScenes](). -->
 
-[![HuggingFace Dataset](https://img.shields.io/badge/🤗-HuggingFace%20Dataset-cyan.svg)](https://huggingface.co/datasets/hoffman-lab/SkyScenes) [![Project Page](https://img.shields.io/badge/Project-Website-orange)](https://hoffman-group.github.io/SkyScenes/) [![arXiv](https://img.shields.io/badge/arXiv-SkyScenes-b31b1b.svg)]()  
+[![HuggingFace Dataset](https://img.shields.io/badge/🤗-HuggingFace%20Dataset-cyan.svg)](https://huggingface.co/datasets/hoffman-lab/SkyScenes) [![Project Page](https://img.shields.io/badge/Project-Website-orange)](https://hoffman-group.github.io/SkyScenes/) [![arXiv](https://img.shields.io/badge/arXiv-SkyScenes-b31b1b.svg)](https://arxiv.org/abs/2312.06719)  
 
 
 <!-- [![Watch the Demo](./assets/robust_aerial_videos.mp4)](./assets/robust_aerial_videos.mp4) -->
@@ -72,4 +72,17 @@
     ```bash
     python3 manualSpawning.py
     ```
+## BibTex
+
+If you find our work useful please star ⭐️ our repo and cite 📄 our paper. Thanks for your support!
+```
+@misc{khose2023skyscenes,
+      title={SkyScenes: A Synthetic Dataset for Aerial Scene Understanding}, 
+      author={Sahil Khose and Anisha Pal and Aayushi Agarwal and Deepanshi and Judy Hoffman and Prithvijit Chattopadhyay},
+      year={2023},
+      eprint={2312.06719},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
 
