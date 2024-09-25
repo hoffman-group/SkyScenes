@@ -1,6 +1,6 @@
 .slideshow-container {
   position: relative;
-  max-width: 80%; /* Set max width to 50% */
+  max-width: 100%; /* Set max width to 50% */
   margin: auto; /* Center the slideshow */
   overflow: hidden; /* Hide overflow */
 }
@@ -62,10 +62,10 @@
 }
 
 /* Fading animation */
-/* .fade {
+.fade {
   animation-name: fade;
   animation-duration: 1.5s;
-} */
+}
 
 @keyframes fade {
   from { opacity: 0.4; }
