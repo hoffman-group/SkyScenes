@@ -1,3 +1,5 @@
+
+
 .carousel {
   position: relative;
   max-width: 100%;
@@ -116,6 +118,7 @@ img {
 .dot1:hover {
   background-color: #555; /* Darker shade on hover */
 }
+
 
 .dot2 {
   height: 10px;

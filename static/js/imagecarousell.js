@@ -16,6 +16,16 @@ function currentSlide(carouselIndex, n) {
     showSlides(slideIndex[carouselIndex] = n, carouselIndex);
 }
 
+const link = document.querySelector('a');
+link.addEventListener('mouseover', () => {
+  link.querySelector('span').style.visibility = 'visible';
+  link.querySelector('span').style.transform = 'scaleX(1)';
+});
+link.addEventListener('mouseout', () => {
+  link.querySelector('span').style.visibility = 'hidden';
+  link.querySelector('span').style.transform = 'scaleX(0)';
+});
+
 function showSlides(n, carouselIndex) {
     let i;
     let slides = document.getElementsByClassName(slideId[carouselIndex]);
