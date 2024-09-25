@@ -1,11 +1,16 @@
 .slideshow-container {
   position: relative;
-  max-width: 50%;
-  margin: auto;
+  max-width: 50%; /* Set max width to 50% */
+  margin: auto; /* Center the slideshow */
+  overflow: hidden; /* Hide overflow */
 }
 
 .mySlides {
-  display: none;
+  display: none; /* Initially hide all slides */
+  position: absolute; /* Position slides absolutely */
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  transition: transform 0.5s ease; /* Add sliding transition */
 }
 
 .img {
@@ -57,10 +62,10 @@
 }
 
 /* Fading animation */
-.fade {
+/* .fade {
   animation-name: fade;
   animation-duration: 1.5s;
-}
+} */
 
 @keyframes fade {
   from { opacity: 0.4; }

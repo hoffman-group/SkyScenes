@@ -27,7 +27,7 @@ function showSlides(n) {
   dots[slideIndex - 1].className += " active";  // Set the current dot to active
 }
 
-// Automatically change slides every 5 seconds
-setInterval(() => {
-  plusSlides(1);
-}, 5000);
+// // Automatically change slides every 5 seconds
+// setInterval(() => {
+//   plusSlides(1);
+// }, 5000);
