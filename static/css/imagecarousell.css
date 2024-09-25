@@ -97,8 +97,8 @@ img {
 }
 
 .dot1 {
-  height: 15px;
-  width: 15px;
+  height: 10px;
+  width: 10px;
   margin: 0 5px; /* Adds horizontal space between dots */
   background-color: #bbb; /* Color of inactive dots */
   border-radius: 50%;
@@ -118,8 +118,8 @@ img {
 }
 
 .dot2 {
-  height: 15px;
-  width: 15px;
+  height: 10px;
+  width: 10px;
   margin: 0 5px; /* Adds horizontal space between dots */
   background-color: #bbb; /* Color of inactive dots */
   border-radius: 50%;
@@ -139,8 +139,8 @@ img {
 }
 
 .dot3 {
-  height: 15px;
-  width: 15px;
+  height: 10px;
+  width: 10px;
   margin: 0 5px; /* Adds horizontal space between dots */
   background-color: #bbb; /* Color of inactive dots */
   border-radius: 50%;
