@@ -1,3 +1,10 @@
+.carousel {
+  position: relative;
+  max-width: 600px;
+  margin: auto;
+  overflow: hidden;
+}
+
 .slideshow-container {
   position: relative;
   max-width: 100%; /* Set max width to 50% */
