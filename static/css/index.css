@@ -110,7 +110,7 @@ body {
 .publication-body img {
 }
 
-.results-carousel {
+/* .results-carousel {
   overflow: hidden;
 }
 
@@ -125,10 +125,10 @@ body {
 
 .results-carousel video {
   margin: 0;
-}
+} */
 
 
-.interpolation-panel {
+/* .interpolation-panel {
   background: #f5f5f5;
   border-radius: 10px;
 }
@@ -154,4 +154,4 @@ body {
 }
 #interpolation-image-wrapper img {
   border-radius: 5px;
-}
+} */
