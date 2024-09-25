@@ -1,36 +1,12 @@
-/* Carousel enhancements */
 .carousel {
-  position: relative;
-  margin-top: 20px;
-}
+  .carousel-item {
+    height: 20em;
 
-/* Inner images styling */
-.carousel-inner img {
-  max-height: 500px; /* Set max height for images */
-  width: 100%; /* Ensure images take full width */
-  object-fit: cover; /* Maintain aspect ratio while covering the space */
-  border-radius: 10px; /* Rounded corners for images */
-}
-
-/* Carousel control buttons */
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for controls */
-  border-radius: 50%; /* Circular controls */
-  width: 30px; /* Set width */
-  height: 30px; /* Set height */
-}
-
-/* Indicator styles */
-.carousel-indicators li {
-  background-color: #000; /* Color for indicators */
-}
-
-.carousel-indicators .active {
-  background-color: #ff5722; /* Color for active indicator */
-}
-
-/* Optional: Add transition effect */
-.carousel-item {
-  transition: transform 0.5s ease, opacity 0.5s ease;
+    > *:first-child {
+      background-position: 50%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: inherit;
+    }
+  }
 }
