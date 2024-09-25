@@ -19,7 +19,7 @@
 }
 
 .img {
-  max-width: 90%; /* Images occupy 90% of the carousel area */
+  max-width: 100%; /* Images occupy 90% of the carousel area */
   height: auto; /* Maintain aspect ratio */
   display: inline-block; /* Treat images as inline-block elements */
   margin: 0 auto; /* Center images within the slide */
