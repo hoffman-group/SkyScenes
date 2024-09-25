@@ -30,4 +30,4 @@ function showSlides(n) {
 // Automatically change slides every 5 seconds
 setInterval(() => {
   plusSlides(1);
-}, 1000);
+}, 5000);
