@@ -37,11 +37,11 @@
 
 /* Left and right arrow positioning */
 .prev {
-  left: -8px; /* Aligns the left arrow to the left */
+  left: -15px; /* Aligns the left arrow to the left */
 }
 
 .next {
-  right: -8px; /* Aligns the right arrow to the right */
+  right: -15px; /* Aligns the right arrow to the right */
 }
 
 /* Hover effect for the arrows */
