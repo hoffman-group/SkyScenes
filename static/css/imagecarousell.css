@@ -18,7 +18,7 @@
   height: 100%; /* Ensure the container takes the full height */
 }
 
-.img {
+img {
   max-width: 100%; /* Images occupy 90% of the carousel area */
   height: auto; /* Maintain aspect ratio */
   display: inline-block; /* Treat images as inline-block elements */
