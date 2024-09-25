@@ -26,12 +26,10 @@
   cursor: pointer;
   position: absolute;
   top: 50%;
-  padding: 16px;
-  color: black;
+  padding: 32px;
+  color: gray;
   font-weight: bold;
-  font-size: 18px;
-  border-radius: 100%; /* Makes the arrows into circles */
-  background-color: rgba(212, 201, 201, 0.646); /* Dark background */
+  font-size: 36px;
   user-select: none;
   transform: translate(0, -50%); /* Centers the arrows vertically */
 }
