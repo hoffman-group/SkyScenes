@@ -7,10 +7,6 @@
 
 .mySlides {
   display: none; /* Initially hide all slides */
-  position: absolute; /* Position slides absolutely */
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  transition: transform 0.5s ease; /* Add sliding transition */
 }
 
 .img {
