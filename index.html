@@ -194,11 +194,10 @@
   <div class="container is-max-desktop">
     <div class="hero-body">
       <div style="text-align: center;">
-        <img width="1000" src="static/images/skyscene_intro_teaser.png">
+        <img width="1000" src="static/images/teaser.jpeg">
       </div> 
       <h2 class="subtitle has-text-justified">
-        <span class="dnerf">SkyScenes</span> comprises of 33.6K aerial images curated from UAV perspectives under different weather and daytime conditions, different flying altitudes, different viewpoint pitch angles, different map layouts (rural and urban) with supporting dense pixel level
-          semantic, and depth annotations. SKYSCENES not only serves as a synthetic source dataset to train real-world generalizable models, but can also augment real data for improved real-world performance
+        <span class="dnerf">SkyScenes</span> comprises of <b><i>33.6k</i></b> aerial images curated from aerial oblique viewpoints with <b><i>controlled variations</i></b> facilitating reproducibility of viewpoints across different weather and daytime conditions (col 1), different flying altitudes (col 2) and different viewpoint pitch angles (col 3), across different map layouts (rural and urban, col 4) with dense pixel-level semantic, instance and depth annotations (col 5).   
       </h2>
     </div>
   </div>
@@ -212,18 +211,16 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Real-world aerial scene understanding is limited by a lack of datasets that contain densely annotated images curated under a diverse set of conditions. Due to inherent challenges in obtaining such images in controlled real-world settings,
-            we present SkyScenes, a synthetic dataset of densely annotated aerial images captured from Unmanned Aerial Vehicle (UAV) perspectives.
-          </p>
-          <p>
-            We carefully curate SkyScenes images from CARLA to comprehensively capture diversity across layout (urban and rural maps), weather conditions, times of day, pitch angles and altitudes with corresponding semantic, instance and depth annotations.
+            Real-world aerial scene understanding is limited by a lack of datasets that contain densely annotated images curated under a diverse set of conditions. 
+            Due to inherent challenges in obtaining such images in controlled real-world settings, we present SkyScenes, a synthetic dataset of densely annotated aerial images captured from Unmanned Aerial Vehicle (UAV) perspectives. 
+            We carefully curate SkyScenes images from CARLA to comprehensively capture diversity across layouts (urban and rural maps), weather conditions, times of day, pitch angles and altitudes with corresponding semantic, instance and depth annotations.
           </p>
           <p>
             Through our experiments using SkyScenes, we show that : 
             <ol type="1">
               <li>Models trained on SkyScenes generalize well to different real-world scenarios</li>
               <li>Augmenting training on real images with SkyScenes data can improve real-world performance</li>
-              <li>Controlled variations in SkyScenes can offer insights into how models respond to changes in viewpoint conditions</li>
+              <li>Controlled variations in SkyScenes can offer insights into how models respond to changes in viewpoint conditions(height and pitch), weather and time of day</li>
               <li>Incorporating additional sensor modalities (depth) can improve aerial scene understanding</li>
           </ol>
           </p>
@@ -242,14 +239,14 @@
       </div>
     </div>
 </section>
-<section class="hero teaser">
+<!-- <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
       <div style="text-align: center;">
       <h2 class="title is-3" style="padding-top: 10pt; text-align: center;"> SkyScenes &rarr; Real Transfer</h2>
-      <h4 class="title is-4" style="padding-top: 10pt; text-align: center;"> (a) SkyScenes trained models generalize well to real-settings</h4>
+      <h4 class="title is-4" style="padding-top: 10pt; text-align: center;"> (a) SkyScenes trained models generalize well to real-settings</h4> -->
      <!-- Slideshow container -->
-     <div class="content has-text-justified">
+     <!-- <div class="content has-text-justified">
       <p>
         Models trained on SkyScenes exhibit strong out-of-the box generalization performance on multiple real world datasets. 
         We find that SkyScenes pretraining exhibits strong generalization across both CNN and transformer segmentation backbones.
@@ -261,7 +258,58 @@
   </div>
 </div>
 </div>
+</section> -->
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <div style="text-align: center;">
+        <h2 class="title is-3" style="padding-top: 10pt; text-align: center;">SkyScenes &rarr; Real Transfer</h2>
+        <h4 class="title is-4" style="padding-top: 10pt; text-align: center;">(a) SkyScenes trained models generalize well to real-settings</h4>
+
+        <!-- Slideshow container using Bootstrap Carousel -->
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" style="margin-top: 20px;">
+          <div class="carousel-inner">
+            <!-- First image -->
+            <div class="carousel-item active">
+              <img src="static/images/aero.jpeg" class="d-block w-100" alt="First slide" width="1000">
+            </div>
+            <!-- Second image -->
+            <div class="carousel-item">
+              <img src="static/images/ua.jpeg" class="d-block w-100" alt="Second slide" width="1000">
+            </div>
+            <!-- Third image -->
+            <div class="carousel-item">
+              <img src="static/images/icg.jpeg" class="d-block w-100" alt="Third slide" width="1000">
+            </div>
+          </div>
+          
+          <!-- Controls for carousel (optional) -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        <!-- Description content below the carousel -->
+        <div class="content has-text-justified" style="margin-top: 20px;">
+          <p>
+            Models trained on SkyScenes exhibit strong out-of-the-box generalization performance on multiple real world datasets. 
+            We find that SkyScenes pretraining exhibits strong generalization across both CNN and transformer segmentation backbones.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
+
+<!-- Add Bootstrap CSS and JS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
