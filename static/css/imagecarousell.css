@@ -21,7 +21,6 @@
   vertical-align: middle;
 }
 
-/* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -32,20 +31,43 @@
   color: white;
   font-weight: bold;
   font-size: 18px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.8);
   transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
   user-select: none;
 }
 
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
+.prev {
+  left: 0;
+  transform: translate(-50%, -50%);
 }
 
-/* On hover, add a black background color with a little bit see-through */
+.next {
+  right: 0;
+  transform: translate(50%, -50%);
+}
+
+/* Hover effect for the arrows */
 .prev:hover, .next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 1);  /* Darken the background on hover */
+}
+
+/* Optional: Styling for arrows inside the circle */
+.prev::before, .next::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border-left: 2px solid white;
+  border-bottom: 2px solid white;
+  transform: rotate(45deg);
+  margin-right: 4px;
+}
+
+.prev::before {
+  transform: rotate(-135deg); /* Adjust to point the arrow left */
+  margin-right: 0;
+  margin-left: 4px;
 }
 
 .dot {
