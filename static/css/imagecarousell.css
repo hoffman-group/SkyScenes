@@ -51,7 +51,7 @@
 }
 
 /* Styling for arrows inside the circles */
-.prev::before, .next::before {
+/* .prev::before, .next::before {
   content: '';
   display: inline-block;
   width: 16px;
@@ -60,13 +60,13 @@
   border-bottom: 2px solid white;
   transform: rotate(45deg);
   margin-right: 4px;
-}
+} */
 
-.prev::before {
-  transform: rotate(-135deg); /* Point the arrow left */
+/* .prev::before {
+  transform: rotate(-135deg); 
   margin-right: 0;
   margin-left: 4px;
-}
+} */
 
 .dot {
   height: 15px;
