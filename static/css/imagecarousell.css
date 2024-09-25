@@ -14,16 +14,15 @@
 
 .mySlides {
   display: none; /* Initially hide all slides */
-  display: flex; /* Use flexbox for centering */
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
+  text-align: center; /* Center align text and images */
   height: 100%; /* Ensure the container takes the full height */
 }
 
 .img {
   max-width: 90%; /* Images occupy 90% of the carousel area */
-  text-align: center;
   height: auto; /* Maintain aspect ratio */
+  display: inline-block; /* Treat images as inline-block elements */
+  margin: 0 auto; /* Center images within the slide */
 }
 
 /* Styling for previous and next arrows */
