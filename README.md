@@ -11,8 +11,11 @@
 
 <!-- [![Watch the Demo](./assets/robust_aerial_videos.mp4)](./assets/robust_aerial_videos.mp4) -->
 
-<img src="./assets/skyscene_intro_teaser.png" width="100%"/>
+<img src="./assets/teaser.jpeg" width="100%"/>
 
+## 📣 Announcements
+
+SkyScenes has been accepted at [ECCV 2024](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/10113_ECCV_2024_paper.php)!
 
 ## 🚀 Release Update
 
