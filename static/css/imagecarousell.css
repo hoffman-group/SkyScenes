@@ -19,6 +19,7 @@
 .img {
   width: 90%;
   vertical-align: middle;
+  margin: auto
 }
 
 /* Styling for previous and next arrows */
