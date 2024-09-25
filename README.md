@@ -15,7 +15,7 @@
 
 ## 📣 Announcements
 
-SkyScenes has been accepted at [ECCV 2024](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/10113_ECCV_2024_paper.php)!
+SkyScenes has been accepted at [ECCV 2024](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/10113_ECCV_2024_paper.php) !
 
 ## 🚀 Release Update
 
