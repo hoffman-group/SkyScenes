@@ -1,29 +1,26 @@
 let slideIndex = 0;
-const slides = document.querySelectorAll(".carousel-image");
+let slides = document.getElementsByClassName("mySlides");
 
-// Function to move slides
-function moveSlides(n) {
-    slideIndex += n;
+function showSlides() {
+  let i;
 
-    if (slideIndex < 0) {
-        slideIndex = slides.length - 1;
-    } else if (slideIndex >= slides.length) {
-        slideIndex = 0;
-    }
+  // Loop through all the slides and reset their display state
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
 
-    updateCarousel();
+  // Increment slide index, reset to 0 if it exceeds the number of slides
+  slideIndex++;
+  if (slideIndex > slides.length) {
+    slideIndex = 1; // Reset to first slide
+  }
+
+  // Show the current slide
+  slides[slideIndex - 1].style.display = "block";  
+
+  // Repeat the process after 3 seconds
+  setTimeout(showSlides, 3000); // Change image every 3 seconds
 }
 
-// Function to update carousel position
-function updateCarousel() {
-    const carousel = document.querySelector(".carousel");
-    const imageWidth = slides[0].clientWidth;
-    const offset = -(imageWidth * slideIndex);
-
-    carousel.style.transform = `translateX(${offset}px)`;
-}
-
-// Auto-slide every 5 seconds
-setInterval(() => {
-    moveSlides(1);
-}, 5000);
+// Start the carousel
+showSlides();
