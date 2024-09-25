@@ -1,24 +1,16 @@
-/* Style the slideshow container */
+* {box-sizing:border-box}
+
+/* Slideshow container */
 .slideshow-container {
-  position: relative;
   max-width: 1000px;
+  position: relative;
   margin: auto;
-  overflow: hidden;
 }
 
-/* .mySlides {
+/* Hide the images by default */
+.mySlides {
   display: none;
-  transition: opacity 1s ease-in-out;
 }
-
-.mySlides.fade {
-  opacity: 0;
-  transition: opacity 1s ease-in-out;
-}
-
-.mySlides.fade.show {
-  opacity: 1;
-} */
 
 /* Next & previous buttons */
 .prev, .next {
@@ -26,8 +18,8 @@
   position: absolute;
   top: 50%;
   width: auto;
-  padding: 16px;
   margin-top: -22px;
+  padding: 16px;
   color: white;
   font-weight: bold;
   font-size: 18px;
@@ -36,11 +28,13 @@
   user-select: none;
 }
 
+/* Position the "next button" to the right */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
+/* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
@@ -56,7 +50,16 @@
   text-align: center;
 }
 
-/* Dots/bullets/indicators */
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
   height: 15px;
@@ -82,4 +85,3 @@
   from {opacity: .4}
   to {opacity: 1}
 }
-
