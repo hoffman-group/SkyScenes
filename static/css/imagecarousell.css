@@ -26,10 +26,11 @@
   cursor: pointer;
   position: absolute;
   top: 50%;
-  padding: 32px;
-  color: gray;
+  padding: 5px;
+  color: black;
   font-weight: bold;
   font-size: 36px;
+  background-color: rgba(192, 186, 186, 0.362); /* Dark background */
   user-select: none;
   transform: translate(0, -50%); /* Centers the arrows vertically */
 }
