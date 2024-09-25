@@ -5,18 +5,38 @@
   overflow: hidden;
 }
 
-.slideshow-container {
-  position: relative;
-  max-width: 100%; /* Set max width to 50% */
-  margin: auto; /* Center the slideshow */
-  overflow: hidden; /* Hide overflow */
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
 }
 
-.mySlides {
-  display: none; /* Initially hide all slides */
-  text-align: center; /* Center align text and images */
-  height: 100%; /* Ensure the container takes the full height */
+.mySlides1 img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
 }
+
+.mySlides2 img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.mySlides3 img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.slideshow-container {
+  position: relative;
+  max-width: 100%; /* Full width */
+  margin: auto;
+}
+
 
 img {
   width: 90%; /* Images occupy 90% of the carousel area */
@@ -71,21 +91,73 @@ img {
   margin-left: 4px;
 } */
 
-.dot {
+.dots {
+  text-align: center;
+  padding: 10px 0; /* Adds some padding around the dots for better spacing */
+}
+
+.dot1 {
   height: 15px;
   width: 15px;
-  margin: 0 2px;
-  background-color: grey;
+  margin: 0 5px; /* Adds horizontal space between dots */
+  background-color: #bbb; /* Color of inactive dots */
   border-radius: 50%;
   display: inline-block;
-  cursor: pointer;
   transition: background-color 0.6s ease;
+  cursor: pointer; /* Adds a pointer cursor on hover */
 }
 
-.active, .dot:hover {
-  background-color: #717171;
+/* Active dot styling */
+.dot1.active {
+  background-color: #717171; /* Color of the active dot */
 }
 
+/* Hover effect for dots */
+.dot1:hover {
+  background-color: #555; /* Darker shade on hover */
+}
+
+.dot2 {
+  height: 15px;
+  width: 15px;
+  margin: 0 5px; /* Adds horizontal space between dots */
+  background-color: #bbb; /* Color of inactive dots */
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  cursor: pointer; /* Adds a pointer cursor on hover */
+}
+
+/* Active dot styling */
+.dot2.active {
+  background-color: #717171; /* Color of the active dot */
+}
+
+/* Hover effect for dots */
+.dot2:hover {
+  background-color: #555; /* Darker shade on hover */
+}
+
+.dot3 {
+  height: 15px;
+  width: 15px;
+  margin: 0 5px; /* Adds horizontal space between dots */
+  background-color: #bbb; /* Color of inactive dots */
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  cursor: pointer; /* Adds a pointer cursor on hover */
+}
+
+/* Active dot styling */
+.dot3.active {
+  background-color: #717171; /* Color of the active dot */
+}
+
+/* Hover effect for dots */
+.dot3:hover {
+  background-color: #555; /* Darker shade on hover */
+}
 /* Fading animation */
 .fade {
   animation-name: fade;
