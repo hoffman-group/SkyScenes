@@ -14,6 +14,10 @@
 
 .mySlides {
   display: none; /* Initially hide all slides */
+  display: flex; /* Use flexbox for centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100%; /* Ensure the container takes the full height */
 }
 
 .img {
