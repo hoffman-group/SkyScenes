@@ -1,8 +1,9 @@
-let slideIndex = [1, 1];  // Array to track current slide for each carousel
-let slideId = ["mySlides1", "mySlides2"];  // Carousel slide class names
+let slideIndex = [1, 1, 1];  // Array to track current slide for each carousel
+let slideId = ["mySlides1", "mySlides2", "mySlides3"];  // Carousel slide class names
 
 showSlides(1, 0);  // Initialize carousel 1
 showSlides(2, 1);  // Initialize carousel 2
+showSlides(3, 2);  // Initialize carousel 2
 
 // Next/previous controls
 function plusSlides(n, carouselIndex) {
