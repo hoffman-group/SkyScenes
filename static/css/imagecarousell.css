@@ -7,7 +7,7 @@
 
 .slideshow-container {
   position: relative;
-  max-width: 50%; /* Set max width to 50% */
+  max-width: 100%; /* Set max width to 50% */
   margin: auto; /* Center the slideshow */
   overflow: hidden; /* Hide overflow */
 }
@@ -22,6 +22,7 @@
 
 .img {
   max-width: 90%; /* Images occupy 90% of the carousel area */
+  text-align: center;
   height: auto; /* Maintain aspect ratio */
 }
 
