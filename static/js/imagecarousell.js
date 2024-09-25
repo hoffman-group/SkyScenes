@@ -18,11 +18,16 @@ function showSlides(n) {
   if (n > slides.length) { slideIndex = 1 }
   if (n < 1) { slideIndex = slides.length }
   for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
+    slides[i].style.display = "none";  // Hide all slides
   }
   for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
+    dots[i].className = dots[i].className.replace(" active", "");  // Remove 'active' class from dots
   }
-  slides[slideIndex - 1].style.display = "block";
-  dots[slideIndex - 1].className += " active";
+  slides[slideIndex - 1].style.display = "block";  // Display the current slide
+  dots[slideIndex - 1].className += " active";  // Set the current dot to active
 }
+
+// Automatically change slides every 5 seconds
+setInterval(() => {
+  plusSlides(1);
+}, 1000);
